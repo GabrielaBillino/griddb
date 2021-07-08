@@ -1,0 +1,43 @@
+.encabezado {
+    background-color: blue;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+
+.medio {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.izquierda {
+    text-transform: uppercase;
+    border: solid 1px;
+    background-color: aquamarine;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin: 10px;
+    /*  flex-direction: column;
+    */
+}
+
+.cuerpo {
+    text-align: center;
+    background-color: coral;
+    width: 2000px;
+    height: 400px;
+    display: flex;
+    /*flex-direction: column;*/
+    flex-direction: column;
+    border: solid 1px;
+    /* margin-left: 100px;*/
+}
+
+.footer {
+    background-color: red;
+    height: 4rem;
+    text-align: unset;
+}
